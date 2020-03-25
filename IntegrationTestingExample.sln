@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTestingExample", "IntegrationTestingExample\IntegrationTestingExample.csproj", "{0EE9EE6B-A926-4F78-9F8C-D7A89588D9D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTestingExampleTests", "IntegrationTestingExampleTests\IntegrationTestingExampleTests.csproj", "{A52A0E0E-6D93-4924-AEE2-17752F147FB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EE9EE6B-A926-4F78-9F8C-D7A89588D9D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE9EE6B-A926-4F78-9F8C-D7A89588D9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE9EE6B-A926-4F78-9F8C-D7A89588D9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE9EE6B-A926-4F78-9F8C-D7A89588D9D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52A0E0E-6D93-4924-AEE2-17752F147FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52A0E0E-6D93-4924-AEE2-17752F147FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52A0E0E-6D93-4924-AEE2-17752F147FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52A0E0E-6D93-4924-AEE2-17752F147FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EAC65E7-8987-4199-AEE3-8A8C09CC080F}
+	EndGlobalSection
+EndGlobal
