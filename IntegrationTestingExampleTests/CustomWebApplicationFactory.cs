@@ -18,15 +18,6 @@ namespace IntegrationTestingExampleTests
 
                 // Build the service provider.
                 var sp = services.BuildServiceProvider();
-
-                //// Create a scope to obtain a reference to the database contexts
-                //using (var scope = sp.CreateScope())
-                //{
-                //    var scopedServices = scope.ServiceProvider;
-
-                //    var logger = scopedServices.GetRequiredService<ILogger<CustomWebApplicationFactory<TStartup>>>();
-
-                //}
             });
         }
     }
