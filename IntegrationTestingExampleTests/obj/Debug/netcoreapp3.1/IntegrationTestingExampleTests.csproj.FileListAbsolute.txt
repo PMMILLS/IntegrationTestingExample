@@ -9,6 +9,10 @@ C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExample
 C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\bin\Debug\netcoreapp3.1\IntegrationTestingExampleTests.deps.json
 C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\bin\Debug\netcoreapp3.1\IntegrationTestingExampleTests.dll
 C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\bin\Debug\netcoreapp3.1\IntegrationTestingExampleTests.pdb
+C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\bin\Debug\netcoreapp3.1\IntegrationTestingExample.pdb
+C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\obj\Debug\netcoreapp3.1\IntegrationTestingExampleTests.csproj.CopyComplete
+C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\obj\Debug\netcoreapp3.1\IntegrationTestingExampleTests.dll
+C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\obj\Debug\netcoreapp3.1\IntegrationTestingExampleTests.pdb
 C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
 C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
 C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
@@ -264,7 +268,3 @@ C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExample
 C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
 C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
 C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
-C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\bin\Debug\netcoreapp3.1\IntegrationTestingExample.pdb
-C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\obj\Debug\netcoreapp3.1\IntegrationTestingExampleTests.csproj.CopyComplete
-C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\obj\Debug\netcoreapp3.1\IntegrationTestingExampleTests.dll
-C:\Users\pmills\source\Repos\IntegrationTestingExample\IntegrationTestingExampleTests\obj\Debug\netcoreapp3.1\IntegrationTestingExampleTests.pdb
