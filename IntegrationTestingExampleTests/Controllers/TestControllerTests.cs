@@ -1,24 +1,24 @@
 ﻿using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
-using IntegrationTestingExample;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using IntegrationTestingExample;   
 using Newtonsoft.Json;
+using NUnit.Framework;
 
 namespace IntegrationTestingExampleTests.Controllers
 {
-    [TestClass]
+    [TestFixture]
     public class TestControllerTests
     {
         private HttpClient _client;
 
-        [TestInitialize]
+        [SetUp]
         public void Setup()
         {
             _client = new CustomWebApplicationFactory<Startup>().CreateClient();
         }
 
-        [TestMethod]
+        [Test]
         public async Task Verify_ResultFrom_Client()
         {
             // The endpoint or route of the controller action.
@@ -32,12 +32,15 @@ namespace IntegrationTestingExampleTests.Controllers
             List<string> result = JsonConvert.DeserializeObject<List<string>>(stringResponse);
 
             // Assert some stuff
-            Assert.AreEqual("Hello", result[0]);
-            Assert.AreEqual("World", result[1]);
-            Assert.AreEqual("!", result[2]);
+            Assert.Multiple(() =>
+            {
+                Assert.AreEqual("Hell", result[0]);
+                Assert.AreEqual("World", result[1]);
+                Assert.AreEqual("?", result[2]);
+            });
         }
 
-        [TestMethod]
+        [Test]
         public async Task Verify_ClientCall_IsSuccess()
         {
             // The endpoint or route of the controller action.
