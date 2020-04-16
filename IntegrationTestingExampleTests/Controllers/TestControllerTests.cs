@@ -34,9 +34,9 @@ namespace IntegrationTestingExampleTests.Controllers
             // Assert some stuff
             Assert.Multiple(() =>
             {
-                Assert.AreEqual("Hell", result[0]); // SHOULD FAIL
-                Assert.AreEqual("World", result[1]); // SHOULD PASS
-                Assert.AreEqual("?", result[2]); // SHOULD FAIL
+                Assert.AreEqual("Hello", result[0]);
+                Assert.AreEqual("World", result[1]); 
+                Assert.AreEqual("!", result[2]);
             });
         }
 
